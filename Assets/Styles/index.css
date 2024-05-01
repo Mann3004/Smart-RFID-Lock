@@ -14,7 +14,9 @@ body {
 
 #physical_circuit {
     margin-left: 200px;
-    height: 635px;
+    height: 625px;
+    margin-top: 5px;
+    border-radius: 20px;
 }
 
 h1, h3 {
