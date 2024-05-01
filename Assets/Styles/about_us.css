@@ -10,21 +10,6 @@ body {
     font-size: 1.2rem;
     text-align: justify;
     background-color: bisque;
-    background-image: url('/body.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-#physical_circuit {
-    /* width: 75%;
-    
-    margin-right: auto;
-    height: 500px;
-    width: ; */
-    margin-top: 50px;
-    margin-left: 450px;
-    max-width:100%; height:auto
 }
 
 h1, h3 {
@@ -39,7 +24,6 @@ p {
     margin-right: auto;
     margin-bottom: 30px;
 }
-
 
 header {
     background-color: #ffa500;
@@ -102,36 +86,6 @@ nav ul li a {
     color: #333;
     font-weight: bold;
     margin-left: 10px;
-}
-
-.button-div {
-    text-align: center;
-}
-
-button {
-    font-family: Cardo, sans-serif;
-    font-size: 20px;
-    width: 150px;
-    height: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #04AA6D;
-    border-radius: 10px;
-}
-
-.button {
-    background-color: #ffa500;
-    color: #333;
-    font-weight: bold;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    /* transition: background-color 0.3s ease; */
-}
-
-.button:hover {
-    background-color: #ff8c00;
 }
 
 h2 {

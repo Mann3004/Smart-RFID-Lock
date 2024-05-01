@@ -10,17 +10,11 @@ body {
     font-size: 1.2rem;
     text-align: justify;
     background-color: bisque;
-    background-image: url('/body.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
 #physical_circuit {
     margin-left: 200px;
-    height: 630px;
-    object-fit: cover;
-    object-fit: fill;
+    height: 635px;
 }
 
 h1, h3 {
@@ -36,7 +30,6 @@ p {
     margin-right: auto;
     margin-bottom: 30px;
 }
-
 
 header {
     background-color: #ffa500;
