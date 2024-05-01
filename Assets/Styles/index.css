@@ -16,6 +16,17 @@ body {
     background-size: cover;
 }
 
+#physical_circuit {
+    /* width: 75%;
+    
+    margin-right: auto;
+    height: 500px;
+    width: ; */
+    margin-top: 50px;
+    margin-left: 450px;
+    max-width:100%; height:auto
+}
+
 h1, h3 {
     text-align: center;
     margin-top: 30px;
