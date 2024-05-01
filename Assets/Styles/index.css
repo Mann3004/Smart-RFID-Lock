@@ -1,0 +1,125 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cardo, sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+    background-color: bisque;
+    background-image: url('/body.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, h3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 1.4rem;
+    margin-top: 50px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+
+header {
+    background-color: #ffa500;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px; /* Adjust the margin as needed */
+    height: 70px;
+    width: 70px;
+    margin-top: 6px;
+    border-radius: 5px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin-right: 20px;
+    align-items: center;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.header-top {
+    text-align: right;
+}
+
+.header-buttons a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.button-div {
+    text-align: center;
+}
+
+button {
+    font-family: Cardo, sans-serif;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #04AA6D;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: #ffa500;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    /* transition: background-color 0.3s ease; */
+}
+
+.button:hover {
+    background-color: #ff8c00;
+}
