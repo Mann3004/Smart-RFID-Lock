@@ -17,10 +17,14 @@ body {
 }
 
 #physical_circuit {
-    margin-left: 200px;
-    height: 630px;
-    object-fit: cover;
-    object-fit: fill;
+    /* width: 75%;
+    
+    margin-right: auto;
+    height: 500px;
+    width: ; */
+    margin-top: 50px;
+    margin-left: 450px;
+    max-width:100%; height:auto
 }
 
 h1, h3 {
@@ -30,7 +34,6 @@ h1, h3 {
 
 p {
     font-size: 1.4rem;
-    margin-top: 50px;
     width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -124,10 +127,41 @@ button {
     border: none;
     border-radius: 5px;
     text-decoration: none;
-    margin-bottom: 50px;
     /* transition: background-color 0.3s ease; */
 }
 
 .button:hover {
     background-color: #ff8c00;
+}
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 80%;
+}
+
+hr {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid3x3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    height: auto;
+    width: auto;
+}
+
+.grid3x3>div>h3 {
+    margin-bottom: 5px;
+}
+
+.grid3x3>div>img {
+    border-radius: 15px;
+    height: px;
+    width: 300px;
 }
