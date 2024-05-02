@@ -99,7 +99,7 @@ nav ul li a {
 
 .header-buttons a {
     text-decoration: none;
-    color: #fff;
+    color: #E0E1DD;
     font-weight: bold;
     margin-left: 10px;
 }
@@ -121,7 +121,7 @@ button {
 
 .button {
     background-color: #1B263B;
-    color: #fff;
+    color: #E0E1DD;
     font-weight: bold;
     padding: 10px 20px;
     border: none;
