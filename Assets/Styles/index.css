@@ -6,17 +6,24 @@
 }
 
 body {
+    margin: 0;
+    padding: 0;
     font-family: Cardo, sans-serif;
-    font-size: 1.2rem;
-    text-align: justify;
     background-color: #E0E1DD;
+    color: #333;
+}
+
+#login {
+    font-size: 19.2px;
+}
+
+#sign-up {
+    color: #1B263B;
 }
 
 #physical_circuit {
     margin-left: 200px;
-    height: 625px;
-    margin-top: 5px;
-    border-radius: 20px;
+    height: 635px;
 }
 
 h1, h3 {
@@ -82,6 +89,7 @@ nav ul li:last-child {
 nav ul li a {
     text-decoration: none;
     color: #fff;
+    font-size: 19.2px;
     font-weight: bold;
 }
 
@@ -124,5 +132,51 @@ button {
 }
 
 .button:hover {
-    background-color: #415A77;
+    background-color: #778DA9;
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+.intro {
+    background-image: url("https://t3.ftcdn.net/jpg/02/48/92/62/360_F_248926266_q8BNpak7BaIbg49Kvyjdndh4yOgd0rOg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+
+.intro-content {
+    max-width: 900px;
+    justify-content: center;
+    margin-right: 400px;
+    margin-top: 5px;
+    
+}
+
+.intro h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-bottom: 35px;
+}
+
+.intro img {
+    max-width: 100%;
+    max-height: 80%;
+    border-radius: 10px;
+    box-sizing: 5px;
+    justify-content: center;
+    background-color: #333;
+    border: 10px solid black;
 }
