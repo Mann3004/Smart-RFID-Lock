@@ -1,8 +1,8 @@
-
 # Project Title
 
 Smart RFID Door Lock System
 
+![Project Screenshot](Assets\Images\Physical_circuit.jpeg)
 
 ## What is the Smart RFID Door Lock System?
 
